@@ -19,6 +19,7 @@
     font-weight: 400, 700;
 }
 body{
+    font-family: 'Overpass';
     background-color: hsl(216, 12%, 8%);
 }
 .star{
