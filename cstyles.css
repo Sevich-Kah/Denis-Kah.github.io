@@ -1,0 +1,125 @@
+.box{
+    font-family: 'Overpass';
+    background-color: hsl(213, 19%, 13%);
+    position: relative;
+    margin-top: 10%;
+    left: 35%;
+    height: 375px;
+    width: 325px;
+    border-radius: 25px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+@font-face {
+    font-family: 'Overpass';
+    src: url('Overpass-VariableFont_wght.ttf');
+    font-weight: 400, 700;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.star{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 22%);
+    margin-top: 27px;
+}
+h2,h1{
+    color: hsl(0, 0%, 90%);
+}
+h2{
+    font-size: 27px;
+}
+.numb{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    color: hsl(217, 12%, 75%);
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 22%);
+    cursor: pointer;
+    margin-right: 15px;
+}
+.numb:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+.numb:focus{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%)
+}
+button{
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 13px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+}
+button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+p{
+    color: hsl(217, 12%, 63%);
+}
+#thank{
+    display: none;
+}
+.thank{
+    position: absolute;
+    top: 0;
+    width: 325px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 13%);
+    border-radius: 20px;
+}
+.thank img{
+    margin-top: 35px;
+}
+.thank p{
+    width: 175px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20%;
+    color: hsl(25, 87%, 53%);
+    background-color: hsl(216, 12%, 22%);
+    text-align: center;
+    padding: 5px;
+    border-radius: 35px;
+}
+.thank article{
+    padding-bottom: 30px;
+}
+article{
+    color: hsl(217, 12%, 75%);;
+}
+@media (max-width:375px) {
+    .box{
+        position: absolute;
+        left:15px;
+        max-width: 275px;
+    }
+    button{
+        width: 266px;
+    }
+    .numb{
+        margin-right:7px;
+    }
+}
