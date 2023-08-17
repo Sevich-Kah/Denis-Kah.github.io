@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="cstyles.css" type="text/css">
+  <link rel="js" href="jscript.js">
+  <link rel="js" href="jscript2.js">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <div class="box">
+    <div class="star">
+      <img src="icon-star.svg" alt="star icon">
+    </div>
+    <h2>How did we do?</h2>
+    <p> Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+    <button id="no1"  class="numb" type="button">1</button>
+    <button id="no2"  class="numb" type="button">2</button>
+    <button id="no3"  class="numb" type="button">3</button>
+    <button id="no4"  class="numb" type="button">4</button>
+    <button id="no5"  class="numb" type="button">5</button>
+    <script src="jscript2.js"></script>
+    <div>
+      <button onclick="openThank()" type="button">Submit</button>
+      <script src="jscript.js"></script>
+    </div>
+    <div id="thank">
+    <div class="thank">
+      <img src="illustration-thank-you.svg" alt="phone">
+      <p> You selected <span id="rating"></span> out of 5</p>
+      <script src="jscript2.js"></script>
+      <h1>Thank you!</h1>
+      <article> We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch</article>
+    </div>
+    </div>
+</body>
+</html>
