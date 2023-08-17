@@ -14,7 +14,7 @@
     font-size: 15px;
 }
 @font-face {
-    font-family: 'Overpass';
+    font-family: 'Overpass',san-serif;
     src: url('Overpass-VariableFont_wght.ttf');
     font-weight: 400, 700;
 }
