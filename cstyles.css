@@ -114,11 +114,13 @@ article{
 @media (max-width:375px) {
     .box{
         position: absolute;
+        left: 0;
         max-width: 275px;
         height: 390px
     }
     button{
         width: 266px;
+        margin-top: -10px;
     }
     .numb{
         margin-right:7px;
