@@ -116,9 +116,11 @@ article{
         position: absolute;
         left:15px;
         max-width: 275px;
+        height: 100%;
     }
     button{
         width: 266px;
+        margin-bottom: 5px;
     }
     .numb{
         margin-right:7px;
