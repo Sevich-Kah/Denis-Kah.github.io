@@ -114,8 +114,8 @@ article{
 @media (max-width:375px) {
     .box{
         position: absolute;
-        left:15px;
         max-width: 275px;
+        height: 375px
     }
     button{
         width: 266px;
