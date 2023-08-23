@@ -115,11 +115,10 @@ article{
     .box{
         position: absolute;
         max-width: 275px;
-        height: 375px
+        height: 390px
     }
     button{
         width: 266px;
-        margin-bottom: 5px;
     }
     .numb{
         margin-right:7px;
